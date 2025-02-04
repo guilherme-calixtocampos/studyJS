@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Cadastro - Projeto de estudo de casos 1, 2 e 3</title>
+</head>
+<body class="opacity-90">
+    <main class="flex justify-around mx-16 items-center mt-40 rounded-xl shadow-xl">
+        <section class="flex flex-col gap-4 border-r-2 border-white items-center pr-16 m-2">
+            <div class="flex flex-col items-center gap-4 mt-16">
+                <h1 class="text-4xl text-sky-200">Cadastre-se no YourSecurity</h1>
+                <p id="mensagem" class="text-red-500 font-bold text-lg bg-red-200 px-4 rounded-lg text-center"></p>
+                <input class="text-center rounded-full" type="text" placeholder="Nome completo" id="nome">
+                <input class="text-center rounded-full" type="email" placeholder="Email" id="email">
+                <input class="text-center rounded-full" type="password" placeholder="Insira sua senha" id="senha">
+                <input class="text-center rounded-full" type="password" placeholder="Confirme sua senha" id="senha1">
+            </div>    
+            <button class="bg-green-300 rounded-xl p-2 px-16" onclick="cadastroNovo()">Cadastrar</button>
+        </section>
+        <img src="img/login.png" alt="Imagem de login">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

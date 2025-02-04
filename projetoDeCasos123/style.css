@@ -1,0 +1,12 @@
+main {
+    background-color: #6570FA;
+}
+
+body {
+    background-image: url(img/cidade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    height: 79vh; /* Define a altura como 100% da altura da tela */
+    margin: 0; /* Remove as margens padrão */
+}
